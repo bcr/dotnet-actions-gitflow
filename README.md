@@ -16,6 +16,11 @@
 - [ ] Verify that the release artifacts are complete
 - [ ] Verify that the release artifacts have the correct version number
 
+## References
+
+<https://docs.github.com/en/free-pro-team@latest/actions/guides/storing-workflow-data-as-artifacts>
+<https://elanderson.net/2020/06/github-use-actions-to-publish-artifacts/>
+
 ## Initial creation notes
 
 The way I initially created the repo is as follows:
