@@ -3,7 +3,7 @@
 ## Tasks
 
 - [X] Create a Gitflow project with `git flow`
-- [ ] Create a skeleton .NET console application that prints its version number
+- [X] Create a skeleton .NET console application that prints its version number
 - [ ] Create a sample test assembly that has a passing test
 - [ ] Create a GitHub Action to build the project and run the tests
 - [ ] Verify that a good build succeeds
