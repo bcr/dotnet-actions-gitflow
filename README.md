@@ -5,8 +5,8 @@
 - [X] Create a Gitflow project with `git flow`
 - [X] Create a skeleton .NET console application that prints its version number
 - [X] Create a sample test assembly that has a passing test
-- [ ] Create a GitHub Action to build the project and run the tests
-- [ ] Verify that a good build succeeds
+- [X] Create a GitHub Action to build the project and run the tests
+- [X] Verify that a good build succeeds
 - [ ] Verify that a broken build is bad
 - [ ] Verify that a build with failing tests is bad
 - [ ] Create a GitHub Action to create a release when making a commit and stamp
