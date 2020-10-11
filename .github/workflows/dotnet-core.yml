@@ -24,7 +24,7 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: Publish
-      run: dotnet publish --configuration Release --no-self-contained
+      run: dotnet publish  --self-contained false --configuration Release
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
