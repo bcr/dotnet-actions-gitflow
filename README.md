@@ -4,7 +4,7 @@
 
 - [X] Create a Gitflow project with `git flow`
 - [X] Create a skeleton .NET console application that prints its version number
-- [ ] Create a sample test assembly that has a passing test
+- [X] Create a sample test assembly that has a passing test
 - [ ] Create a GitHub Action to build the project and run the tests
 - [ ] Verify that a good build succeeds
 - [ ] Verify that a broken build is bad
@@ -38,4 +38,5 @@ Hooks and filters directory? [/Users/blakeramsdell/Source/bcr/dotnet-actions-git
 
 ```bash
 ~/Source/bcr/dotnet-actions-gitflow$ dotnet new console -o Bcr.Example.Gitflow
+~/Source/bcr/dotnet-actions-gitflow$ dotnet new xunit -o Bcr.Example.Gitflow.Test
 ```
