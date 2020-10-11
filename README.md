@@ -14,6 +14,8 @@
 - [ ] Verify that the release artifacts are complete
 - [ ] Verify that the release artifacts have the correct version number
 
+## Initial creation notes
+
 The way I initially created the repo is as follows:
 
 ```bash
@@ -32,4 +34,8 @@ Support branches? [support/]
 Version tag prefix? []
 Hooks and filters directory? [/Users/blakeramsdell/Source/bcr/dotnet-actions-gitflow/.git/hooks]
 ~/Source/bcr/dotnet-actions-gitflow$
+```
+
+```bash
+~/Source/bcr/dotnet-actions-gitflow$ dotnet new console -o Bcr.Example.Gitflow
 ```
