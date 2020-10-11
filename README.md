@@ -39,4 +39,7 @@ Hooks and filters directory? [/Users/blakeramsdell/Source/bcr/dotnet-actions-git
 ```bash
 ~/Source/bcr/dotnet-actions-gitflow$ dotnet new console -o Bcr.Example.Gitflow
 ~/Source/bcr/dotnet-actions-gitflow$ dotnet new xunit -o Bcr.Example.Gitflow.Test
+~/Source/bcr/dotnet-actions-gitflow$ dotnet new sln
+~/Source/bcr/dotnet-actions-gitflow$ dotnet sln add Bcr.Example.Gitflow
+~/Source/bcr/dotnet-actions-gitflow$ dotnet sln add Bcr.Example.Gitflow.Test
 ```
