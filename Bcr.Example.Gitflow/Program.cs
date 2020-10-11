@@ -16,7 +16,6 @@ namespace Bcr.Example.Gitflow
 
         static void Main(string[] args)
         {
-            @@@
             Console.WriteLine($"Hello World! I am version {GetVersionString()}");
         }
     }
