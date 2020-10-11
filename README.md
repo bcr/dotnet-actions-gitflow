@@ -8,7 +8,7 @@
 - [X] Create a GitHub Action to build the project and run the tests
 - [X] Verify that a good build succeeds
 - [X] Verify that a broken build is bad
-- [ ] Verify that a build with failing tests is bad
+- [X] Verify that a build with failing tests is bad
 - [ ] Create a GitHub Action to create a release when making a commit and stamp
       build artifacts with the release name
 - [ ] Verify that the release artifacts are complete
