@@ -1,5 +1,19 @@
 # .NET GitHub Actions and Gitflow Example
 
+## Tasks
+
+- [X] Create a Gitflow project with `git flow`
+- [ ] Create a skeleton .NET console application that prints its version number
+- [ ] Create a sample test assembly that has a passing test
+- [ ] Create a GitHub Action to build the project and run the tests
+- [ ] Verify that a good build succeeds
+- [ ] Verify that a broken build is bad
+- [ ] Verify that a build with failing tests is bad
+- [ ] Create a GitHub Action to create a release when making a commit and stamp
+      build artifacts with the release name
+- [ ] Verify that the release artifacts are complete
+- [ ] Verify that the release artifacts have the correct version number
+
 The way I initially created the repo is as follows:
 
 ```bash
