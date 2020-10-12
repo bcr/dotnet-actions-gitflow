@@ -24,9 +24,9 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: Publish
-      run: dotnet publish  --self-contained false --configuration Release
+      run: dotnet publish --no-build --configuration Release -o publish Bcr.Example.Gitflow
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
         name: Bcr.Example.Gitflow
-        path: Bcr.Example.Gitflow/bin/Release/net5.0/publish
+        path: publish
