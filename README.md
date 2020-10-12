@@ -20,6 +20,7 @@
 
 <https://docs.github.com/en/free-pro-team@latest/actions/guides/storing-workflow-data-as-artifacts>
 <https://elanderson.net/2020/06/github-use-actions-to-publish-artifacts/>
+<https://docs.github.com/en/free-pro-team@latest/actions/reference/context-and-expression-syntax-for-github-actions>
 
 ## Initial creation notes
 
