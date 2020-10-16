@@ -11,7 +11,7 @@
 - [X] Verify that a build with failing tests is bad
 - [X] Create a GitHub Action to create an artifact when making a commit
 - [X] Verify artifact is created and contents
-- [ ] Create a GitHub Action to stamp build artifacts with the release name
+- [X] Create a GitHub Action to stamp build artifacts with the release name
 - [ ] Create a GitHub Action to publish release build artifacts
 - [ ] Verify that the release artifacts are complete
 - [ ] Verify that the release artifacts have the correct version number
