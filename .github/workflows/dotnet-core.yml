@@ -31,5 +31,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: Bcr.Example.Gitflow-$VERSION
+        name: Bcr.Example.Gitflow-${{ env.VERSION }}
         path: publish
