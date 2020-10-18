@@ -1,0 +1,35 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ develop, master, release/* ]
+  pull_request:
+    branches: [ develop, master, release/* ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Version ID
+      run: |
+        VERSION=`git describe --tags --abbrev=0` || VERSION="0.0.0-SNAPSHOT-`git rev-parse --short HEAD`" ; echo "VERSION=$VERSION" >> $GITHUB_ENV
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.100-rc.1.20452.10
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build -property:Version=$VERSION --configuration Release --no-restore
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
+    - name: Publish
+      run: dotnet publish --no-build --configuration Release -o publish Bcr.Example.Gitflow
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Bcr.Example.Gitflow-${{ env.VERSION }}
+        path: publish
